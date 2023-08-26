@@ -1,0 +1,28 @@
+{
+  "name": "hardhat-testing-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giorgi",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "devDependencies": {
+    "@reportportal/agent-js-mocha": "^5.0.3",
+    "@reportportal/client-javascript": "^5.0.12",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.5.6",
+    "chai": "^4.3.8",
+    "hardhat": "^2.17.1",
+    "mocha-multi-reporters": "^1.5.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
